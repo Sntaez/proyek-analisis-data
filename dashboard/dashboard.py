@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-file_path = "../dashboard/main_data.csv"
+file_path = "dashboard/main_data.csv"
 df = pd.read_csv(file_path)
 
 # Pastikan kolom tanggal dalam format datetime
